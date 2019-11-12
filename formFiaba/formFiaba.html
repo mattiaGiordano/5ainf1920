@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Inventa una fiaba!</title>
+    </head>
+    <body> 
+        <form method="GET" action="gestisciFiaba.php">
+            Autore: <input type="text" size="12" maxlength="24" name="autore"><br>
+            Titolo: <input type="text" size="12" maxlength="24" name="titolo"><br><br>
+            Protagonista: <br>
+            Bambino: <input type="checkbox" value="bambino" name="protagonisti[]"><br>
+            Animale: <input type="checkbox" value="animale" name="protagonisti[]"><br>
+            Oggetto: <input type="checkbox" value="oggetto" name="protagonisti[]"><br><br>
+            Scegli l'ambientazione:<br>
+            Casa: <input type="radio" value="casa" name="ambientazione"><br>
+            Citt&agrave;: <input type="radio" value="citta" name="ambientazione"><br>
+            Foresta: <input type="radio" value="foresta" name="ambientazione"><br><br>
+            <textarea rows="7" cols="25" name="svolgimento">
+                    Inserisci lo svolgimento della fiaba!
+            </textarea><br><br>
+            Seleziona il finale:<br>
+            <select name="finale">
+                <option value="positivo">Positivo</option>
+                <option value="negativo">Negativo</option>
+                <option value="aperto">Aperto</option>
+            </select>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Scrivi!">            
+        </form>
+    </body>
+</html>
