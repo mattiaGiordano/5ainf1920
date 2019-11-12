@@ -1,4 +1,4 @@
-<-- php file by Giordano Mattia -->
+<!-- php file by Giordano Mattia -->
 <html>
     <head>
         <title>Hai inventato una fiaba!</title>
