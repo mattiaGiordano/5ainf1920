@@ -54,8 +54,8 @@
 				{
 					if(winPrec==0)
 					{
-						immaginiPrecedentiDiDue[0].setAttribute('src', "black.png"); 
-						immaginiPrecedentiDiDue[1].setAttribute('src', "black.png"); 						
+						immaginiPrecedentiDiDue[0].setAttribute('src', "images/black.png"); 
+						immaginiPrecedentiDiDue[1].setAttribute('src', "images/black.png"); 						
 					}
 					contX = 0;
 					winPrec = 0;
@@ -101,12 +101,7 @@
 			function gameWon()
 			{
 				document.getElementById("visioneASchermo").innerHTML = "I miei complimenti, hai trovato tutte le coppie!";		
-				console.log('WIN!');
-				var img = document.createElement('img'); 
-				img.setAttribute('src', 'win.gif');
-				img.setAttribute('height', 400);
-				img.setAttribute('width', 400);				
-				document.getElementById('body').appendChild(img); 								
+				console.log('WIN!');								
 			}
 			
 		</script>
