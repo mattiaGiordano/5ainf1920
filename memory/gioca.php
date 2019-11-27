@@ -1,3 +1,5 @@
+<!-- file di Gerbaudo Simone a cui ho apportato alcune modifiche, il file contiene uno script perchè secobdo lui
+     era il miglior modo di svolgere l'esrcizio, io non saprei come risolverlo in un altro modo per cui non l'ho modificato -->
 <html>
     <head>
         <title>Memory game!</title>		
