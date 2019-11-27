@@ -5,20 +5,20 @@
     <body>
         <table>
 			<tr>
-				<td> <img class="memoryGame" id="img1" src="black.png" data-original-source="black.png"  data-selected-source="<?php echo $_SESSION["images"][0][0]; ?>"  height=100 width=100></img> </td> 
-				<td> <img class="memoryGame" id="img2" src="black.png" data-original-source="black.png"  data-selected-source="<?php echo $_SESSION["images"][0][1]; ?>"  height=100 width=100></img> </td> 
+				<td> <img class="memoryGame" id="img1" src="images/black.png" data-original-source="images/black.png"  data-selected-source="<?php echo $_SESSION["images"][0][0]; ?>"  height=100 width=100></img> </td> 
+				<td> <img class="memoryGame" id="img2" src="images/black.png" data-original-source="images/black.png"  data-selected-source="<?php echo $_SESSION["images"][0][1]; ?>"  height=100 width=100></img> </td> 
 			<tr>
 			<tr>
-				<td> <img class="memoryGame" id="img3" src="black.png" data-original-source="black.png"  data-selected-source="<?php echo $_SESSION["images"][1][0]; ?>"  height=100 width=100></img> </td> 
-				<td> <img class="memoryGame" id="img4" src="black.png" data-original-source="black.png"  data-selected-source="<?php echo $_SESSION["images"][1][1]; ?>"  height=100 width=100></img> </td> 
+				<td> <img class="memoryGame" id="img3" src="images/black.png" data-original-source="images/black.png"  data-selected-source="<?php echo $_SESSION["images"][1][0]; ?>"  height=100 width=100></img> </td> 
+				<td> <img class="memoryGame" id="img4" src="images/black.png" data-original-source="images/black.png"  data-selected-source="<?php echo $_SESSION["images"][1][1]; ?>"  height=100 width=100></img> </td> 
 			<tr> 
 			<tr>
-				<td> <img class="memoryGame" id="img5" src="black.png" data-original-source="black.png"  data-selected-source="<?php echo $_SESSION["images"][2][0]; ?>"  height=100 width=100></img> </td> 
-				<td> <img class="memoryGame" id="img6" src="black.png" data-original-source="black.png"  data-selected-source="<?php echo $_SESSION["images"][2][1]; ?>"  height=100 width=100></img> </td> 
+				<td> <img class="memoryGame" id="img5" src="images/black.png" data-original-source="images/black.png"  data-selected-source="<?php echo $_SESSION["images"][2][0]; ?>"  height=100 width=100></img> </td> 
+				<td> <img class="memoryGame" id="img6" src="images/black.png" data-original-source="images/black.png"  data-selected-source="<?php echo $_SESSION["images"][2][1]; ?>"  height=100 width=100></img> </td> 
 			<tr>
 			<tr>
-				<td> <img class="memoryGame" id="img7" src="black.png" data-original-source="black.png"  data-selected-source="<?php echo $_SESSION["images"][3][0]; ?>"  height=100 width=100></img> </td> 
-				<td> <img class="memoryGame" id="img8" src="black.png" data-original-source="black.png"  data-selected-source="<?php echo $_SESSION["images"][3][1]; ?>"  height=100 width=100></img> </td> 
+				<td> <img class="memoryGame" id="img7" src="images/black.png" data-original-source="images/black.png"  data-selected-source="<?php echo $_SESSION["images"][3][0]; ?>"  height=100 width=100></img> </td> 
+				<td> <img class="memoryGame" id="img8" src="images/black.png" data-original-source="images/black.png"  data-selected-source="<?php echo $_SESSION["images"][3][1]; ?>"  height=100 width=100></img> </td> 
 			<tr>
         </table>   
 		<br>
